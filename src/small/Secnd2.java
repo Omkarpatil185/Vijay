@@ -10,8 +10,7 @@ public class Secnd2 {
 		Dimension d=new Dimension(400,800);
 		driver.manage().window().setSize(d);
 		
-		Point p=new Point(100,500);
-		driver.manage().window().setPosition(p);
+		
 	}
 
 }
