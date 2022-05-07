@@ -12,15 +12,6 @@ public class Locfb {
 		driver.get("https://www.facebook.com/");
 		driver.findElement(By.cssSelector("input[name='email']")).sendKeys("omkar");
 		
-		//driver.findElement(By.xpath("//input[@name=\"email\"]")).sendKeys("omii");
-		//driver.findElement(By.cssSelector("#email")).sendKeys("ommmiiii");
-		
-		//driver.findElement(By.cssSelector("input[type='password']")).sendKeys("patil");
-		//driver.findElement(By.partialLinkText("Forgotten password")).click();
-		//driver.findElement(By.xpath("//input[@id=\'pass\']")).sendKeys("komal");
-		//driver.findElement(By.cssSelector("#pass")).sendKeys("komalpatil");
-		//driver.findElement(By.linkText("Forgotten password?")).click();
-		
 		
 }
 }
