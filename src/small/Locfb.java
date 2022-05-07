@@ -10,7 +10,7 @@ public class Locfb {
 		System.setProperty("webdriver.chrome.driver", "D:\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.facebook.com/");
-		//driver.findElement(By.cssSelector("input[name='email']")).sendKeys("omkar");
+		driver.findElement(By.cssSelector("input[name='email']")).sendKeys("omkar");
 		
 		//driver.findElement(By.xpath("//input[@name=\"email\"]")).sendKeys("omii");
 		//driver.findElement(By.cssSelector("#email")).sendKeys("ommmiiii");
